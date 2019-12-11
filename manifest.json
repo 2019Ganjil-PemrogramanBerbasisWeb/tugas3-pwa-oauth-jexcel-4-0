@@ -1,0 +1,53 @@
+{ //untuk mengontrol bagaimana aplikasi terlihat oleh pengguna di daerah yang mereka harap akan melihat aplikasi
+  "name": "HTML Progressive Web App", //spanduk pemasangan aplikasi web
+  "short_name": "HTML PWA", //digunakan sebagai teks di layar beranda pengguna
+  "description": "A very cool web app powered by zUIx.js",
+  "theme_color": "#f5f8fa", //setel warna tema
+  "background_color": "white", //setel warna latar belakang
+  "display": "standalone", //setel gaya peluncuran
+  "Scope": "./", //menunjukkan dimulai dari mana aplikasi PWA kita
+  "start_url": "index.html", //setel sebuah URL mulai
+  "icons": [ //menyesuaikan berbagai ikon
+    {
+      "src": "images/icons/bendera-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/bendera-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/bendera-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/bendera-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/bendera-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/bendera-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/bendera-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/bendera-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
